@@ -1,6 +1,8 @@
 <?php include "views/layout/header.php";?>
 <!-- /.row -->
     <section class="company-signup-form1-cont container beHidden beVisible">
+        <a href="<?= Index ?>UserController/listUserAction" class="btn btn-secondary">check data</a>
+
         <div class="text-center mt-4">
             <span>essential information</span>
         </div>
@@ -131,13 +133,6 @@
                 </div>
 
 
-
-
-
-
-
-
-
             </div>
             <div class="form-group mt-4">
                 <div class="floating-label">
@@ -171,8 +166,8 @@
                 </div>
             </div>
             <div class="submit-company-form-signup">submit</div>
+
         </form>
-        <a href="<?= Index ?>UserController/listUserAction" class="btn btn-secondary">check data</a>
 
     </section>
     <section class="company-signup-form3-cont container beHidden">
